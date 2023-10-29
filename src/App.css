@@ -1,3 +1,7 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,634 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.homePage{
+  overflow-x: hidden;
+}
+.navbar{
+  background-color: black;
+  height: 10vh;
+}
+.nav-links{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  overflow-x: visible;
+  justify-content: center;
+  list-style: none;
+  width: 75%;
+}
+
+.home, .about, .blog, .services, .contact{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  transition: all 0.4s;
+}
+.home:hover, .about:hover, .blog:hover, .services:hover, .contact:hover{
+  color: black;
+  background-color: white;
+  transition: all 1.5s ease;
+}
+.logo{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+}
+#topHead{
+  text-align: center;
+}
+.HomeTop{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;  
+}
+.HomeTop h2{
+  font-size: xx-large;
+  font-weight: 800;
+}
+.HomeTop p{
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: large;
+}
+.carInside{
+  background-color: #ccc;
+  height: 55vh;
+  background-image: url(images/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carInside h1{
+  padding-top: 30px;
+}
+#carInside1{
+  color: white;
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/img5.jpg);
+}
+#carInside2{
+  background-color: #ccc;
+  background-image: url(images/img6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;   
+}
+#carInside3{
+  background: linear-gradient(to right, rgba(197, 0, 0, 0.579), rgba(200, 0, 0, 0.552)), url(images/img7.jpg);
+  text-align: center; 
+}
+#carInside3 h1{
+  color: whitesmoke;
+}
+.carInside h1{
+  position: relative;
+  top: 50px;
+}
+.carButton{
+  position: relative;
+  top: 60px;
+  padding: .8rem;
+  font-size: 14px;
+  background-color: blueviolet;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.carButton:hover{
+  background-color: #fff;
+  color: blueviolet;
+}
+.Home2{
+  margin-left: 50px;
+  display: flex;
+
+}
+.Home2 img{
+  margin-right: 25px;
+  height: 400px;
+  width: 700px;
+}
+#home2 img{
+  width: 500px;
+}
+#fCard .card{
+  transition: background-color .4s;
+}
+#fCard .card:hover{
+  cursor: pointer;
+  background-color:coral;
+}
+#bFeature img{
+  height: 400px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.Home3{
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Home3 h3{
+  text-align: center;
+  font-size: x-large;
+}
+#cardBox{
+  background-color: bisque;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+.Home4{
+  background-color: maroon;
+  padding-bottom: 10px;
+  color: whitesmoke;
+}
+@media (max-width:500px) {
+  
+#numb{
+  width: 130vw;
+}
+}
+#ourWorks p{
+  margin-left: 10px;
+}
+.Home5{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 20px;  
+}
+.Home5 .container h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Home5 img{
+  height: 200px;
+  width: 400px;
+}
+.Home5 h3{
+  padding-top: 10px;
+  font-size: larger;
+  text-align: center;
+}
+.Home5 p{
+  font-size:14px;
+}
+.Home6{
+
+  background-color: #282c34;
+  width: 100%;
+  color: white;
+}
+.Home6 a{
+  color: #ccc;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.Home6 a::after{
+  content: '\a';
+  white-space: pre;
+}
+#faqSection h4{
+  padding-top: 45px;
+}
+.myFooter{
+ 
+}
+#footer{
+  padding-top: 30px;
+}
+#footer .row p:nth-child(2) h4{
+  padding-top: 30px;
+}
+.aboutCl{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aboutCl h2{
+  text-align: center;
+  padding-top: 30px;
+}
+.aboutCl .card h3{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.aboutCl .card h3 i{
+  position: relative;
+  right: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.aboutCl .card{
+  background-color: aliceblue;
+}
+.aboutCl .container #imgCol img{
+  height: 300px;
+  width: 400px;
+  transition: transform .3s;
+}
+.aboutCl .container #imgCol img:hover{
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#img8{
+  background:url(images/img8.avif);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: all .5s;
+}
+#img8:hover{
+  background: linear-gradient(to right, rgba(0, 79, 215, 0.7), rgba(0, 79, 215, 0.7)), url(images/img8.avif);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#img9{
+  background:url(images/img9.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: all .5s;
+}
+#img9:hover{
+  background: linear-gradient(to right, rgba(0, 79, 215, 0.7), rgba(0, 79, 215, 0.7)), url(images/img9.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#img10{
+  background:url(images/img10.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: all .5s;
+}
+#img10:hover{
+  background: linear-gradient(to right, rgba(0, 79, 215, 0.7), rgba(0, 79, 215, 0.7)), url(images/img10.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#img11{
+  background:url(images/img11.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: all .5s;
+}
+#img11:hover{
+  background: linear-gradient(to right, rgba(0, 79, 215, 0.7), rgba(0, 79, 215, 0.7)), url(images/img11.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#img12{
+  background:url(images/img12.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: all .5s;
+}
+#img12:hover{
+  background: linear-gradient(to right, rgba(0, 79, 215, 0.7), rgba(0, 79, 215, 0.7)), url(images/img12.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+#img13{
+  background:url(images/img13.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 400px;
+  transition: all .5s;
+}
+#img13:hover{
+  background: linear-gradient(to right, rgba(0, 79, 215, 0.7), rgba(0, 79, 215, 0.7)), url(images/img13.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid blue;
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.aboutLast{
+
+  background-color: #282c34;
+  width: 100%;
+  color: white;
+}
+.aboutLast a{
+  color: #ccc;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.aboutLast a::after{
+  content: '\a';
+  white-space: pre;
+}
+.servicesLast{
+
+  background-color: #282c34;
+  width: 100%;
+  color: white;
+}
+.servicesLast a{
+  color: #ccc;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.servicesLast a::after{
+  content: '\a';
+  white-space: pre;
+}
+.contactPage h2{
+  font-weight: bolder;
+}
+.contactPage #contactDesc h2{
+  font-size: xx-large;
+  font-weight:650;
+}
+.contactPage #contactDesc img{
+  height: 350px;
+  width: 700px;
+  border-end-end-radius: 150px;
+  border-top-left-radius: 150px;
+  
+}
+.contactPage #contact2{
+  display: flex;
+}
+.contactPage form input, .contactPage form select, .contactPage form textarea{
+  border: 1px solid gray;
+}
+.contactPage #map{
+  width:700px;
+  height:600px;
+
+}
+@media (max-width:1300px){
+  #cImg{
+    width: 400px;
+  }
+  .contactPage #contactDesc img{
+    width: 500px;
+  }
+  #gmap #map{
+    width: 550px;
+  }
+}
+@media(max-width:1200px){
+  .contactPage #contactDesc img{
+    height: 350px;
+    width: 500px;
+  }
+  .Home5 img{
+    width: 294px;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .carInside{
+    width: 100%;
+  }
+  .footer{
+    width: 100%;
+  }
+  
+  #cImg{
+    width: 400px;
+  }
+}
+@media (max-width:1070px) {
+  .contactPage img{
+    width: 400px; 
+  }
+  #gmap #map{
+    width: 500px;
+  }
+}
+@media(max-width:1000px){
+  
+  .footer{
+    width: 130vw;
+  }
+  #home2 img{
+    width: 480px;
+  }
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -2500px;
+    width: 100%;
+    color: white;
+  }
+  .navbar{
+    width: 100vw;
+  }
+  .footer{
+    width: 130vw;
+  }
+  #home2 img{
+    width: 450px;
+  }
+} 
+@media (max-width:992px) {
+  .Home5 img{
+    width: 214px;
+  }
+  
+}
+@media (max-width:835px) {
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -2500px;
+    width: 100%;
+    color: white;
+  }
+  .contactPage #contactDesc img{
+    width: 350px;
+  }
+  #gmap #map{
+    width: 355px;
+  }
+}
+@media (max-width:768px){
+  .Home5 img{
+    width: 515px;
+  }
+  .contactPage #map{
+    width: 500px;
+  }
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -3900px;
+    width: 100%;
+    color: white;
+  }
+  #gmap #map{
+    width: 355px;
+    height: 500px;
+  }
+}
+@media (max-width:760px) {
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -2400px;
+    width: 100%;
+    color: white;
+  }
+  .contactPage #contactDesc img{
+    height: 350px;
+    width: 350px;
+  }
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -4000px;
+    width: 100%;
+    color: white;
+  }
+}
+@media (max-width:700px) {
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -4200px;
+    width: 100%;
+    color: white;
+  }
+}
+
+@media (max-width:699px) {
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -4000px;
+    width: 100%;
+    color: white;
+  }
+  .contactPage #map{
+    width: 400px;
+  }
+}
+@media (max-width:670px) {
+  .Home6{
+    position: absolute;
+    background-color: #282c34;
+    bottom: -4000px;
+    width: 100%;
+    color: white;
+  }
+  #home2 img{
+    width: 470px;
+  }
+}
+@media (max-width:605px) {
+
+  .Home6{
+    position: relative;
+    background-color: #282c34;
+    top: 170px;
+    width: 100%;
+    color: white;
+  }
+}
+@media (max-width:604px){
+  .navbar{
+    height: 47vh;
+  }
+  .nav-links{
+    display: block;
+    height: max-content;
+  }
+}
+@media(max-width:600px){
+  #bFeature .col-md-6 img{
+    width: 400px ;
+  }
+}  
+@media(max-width:540px){
+  .Home5 img{
+    width: 499px;
+  }
+  .contactPage{
+    overflow-x: hidden;
+  }
+  .contactPage #cImg{
+    width: 300px;
+  }
+}
+@media (max-width:500px) {
+  .Home5 img{
+    width: 450px;
+  }
+  .Home6{
+    position: relative;
+    background-color: #282c34;
+    top: 100px;
+    width: 100%;
+    color: white;
+  }
+  #bFeature .col-md-6 img{
+    width: 350px ;
+  }
+  #home2 img{
+    width: 460px;
+  }
+  .contactPage #map{
+    width: 390px;
+    height: 600px;
+    position: relative;
+    right: 40px;
+  }
+  
+}
+ 
+@media (max-width:435px){
+  .navbar{
+    height: 47vh;
+  }
+  .nav-links{
+    display: block;
+    height: max-content;
+  }
+  .Home5 img{
+    width: 390px;
+  }
+}
+@media(max-width:410px){
+  .Home5 img{
+    width: 370px;
+  }
+}
+@media(max-width:390px){
+  .Home5 img{
+    width: 330px;
   }
 }
