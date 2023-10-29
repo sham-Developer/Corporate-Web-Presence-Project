@@ -43,16 +43,22 @@
 .homePage{
   overflow-x: hidden;
 }
+#TopBtn{
+  position: fixed;
+  top: 600px;
+  right: 35px;
+}
 .navbar{
   background-color: black;
   height: 10vh;
+  position: sticky;
+  top: 0;
 }
 .nav-links{
   display: flex;
   position: absolute;
   top: 10px;
   left: 100px;
-  overflow-x: visible;
   justify-content: center;
   list-style: none;
   width: 75%;
@@ -603,7 +609,10 @@
   .nav-links{
     display: block;
     height: max-content;
-  }
+    }
+    .nav-links li{
+      padding: 0px 15px;
+    }
 }
 @media(max-width:600px){
   #bFeature .col-md-6 img{

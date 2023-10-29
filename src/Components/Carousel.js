@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import { ReactDOM } from 'react-dom';
+import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -22,4 +21,4 @@ function Carousel_Func(){
         </Carousel>
     )
 }
-export default Carousel_Func
+export default Carousel_Func;

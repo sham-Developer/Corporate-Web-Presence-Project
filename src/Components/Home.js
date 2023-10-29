@@ -5,8 +5,8 @@ import img2 from '../images/img2.jpeg';
 import img3 from '../images/img3.png'
 import img4 from '../images/img4.jpeg'
 import Footer from "./Footer";
-
 const Home = () =>{
+  
     return(
         <>
         <section className="homePage">
@@ -126,5 +126,8 @@ const Home = () =>{
         </section>
         </>
     )
+}
+function toTop(){
+    window.scrollTo(0,0);
 }
 export default Home

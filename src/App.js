@@ -13,6 +13,9 @@ import Top from './Components/top';
 import Footer from './Components/Footer';
 
 const App = () =>{
+  function toTop(){
+    window.scrollTo(0,0);
+  }
   return(
     <>
     <Top />
@@ -27,7 +30,7 @@ const App = () =>{
       </Routes>
     </Router>
     <br></br>
-  
+    <button className="btn btn-success" onClick={toTop} id='TopBtn'>Top &nbsp; <i class="fa fa-chevron-up"></i></button>
     </>
   )
 }

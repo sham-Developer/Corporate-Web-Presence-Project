@@ -4,6 +4,7 @@ const About = () =>{
     return(
         <>
         <div className="aboutCl">
+            
         <h2>About Us</h2>
 
         <div className="row mx-5">
