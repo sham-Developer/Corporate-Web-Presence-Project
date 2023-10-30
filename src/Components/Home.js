@@ -1,10 +1,10 @@
 
-import Carousel_Func from "./Carousel";
 import myimg1 from '../images/img1.avif'
 import img2 from '../images/img2.jpeg';
 import img3 from '../images/img3.png'
 import img4 from '../images/img4.jpeg'
 import Footer from "./Footer";
+import Carousel2 from "./Carousel";
 const Home = () =>{
   
     return(
@@ -18,7 +18,7 @@ const Home = () =>{
         </p>
         </div>
         <br></br>
-        <Carousel_Func />
+        <Carousel2 />
         <section className="Home2 row" id="home2">
             <div className="col-md-6 col-sm-12 col-lg-6 px-5 my-3">
                 <h2>
@@ -127,7 +127,5 @@ const Home = () =>{
         </>
     )
 }
-function toTop(){
-    window.scrollTo(0,0);
-}
+
 export default Home

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -10,7 +9,6 @@ import Services from './Components/Services';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 import Top from './Components/top';
-import Footer from './Components/Footer';
 
 const App = () =>{
   function toTop(){

@@ -43,7 +43,7 @@ const Footer = () =>{
                 </div>
             </div>
         </div>
-        <div className="container-fluid bg-dark text-center py-3">@Copyrights 2023. SoftwareComapny Pvt Ltd</div>
+        <div className="container-fluid bg-dark text-center py-3">@Copyrights 2023. Softa Company Pvt Ltd</div>
         </div>
         </>
     )

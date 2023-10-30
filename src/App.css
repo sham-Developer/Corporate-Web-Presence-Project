@@ -1,5 +1,6 @@
 *{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -240,9 +241,7 @@
 #faqSection h4{
   padding-top: 45px;
 }
-.myFooter{
- 
-}
+
 #footer{
   padding-top: 30px;
 }
@@ -608,11 +607,19 @@
   }
   .nav-links{
     display: block;
-    height: max-content;
+
     }
     .nav-links li{
       padding: 0px 15px;
     }
+    
+    .home:hover, .about:hover, .blog:hover, .services:hover, .contact:hover{
+      color: white;
+      text-decoration: underline #ccc;
+      background-color: black;
+      transition: all 1.5s ease;
+    }
+   
 }
 @media(max-width:600px){
   #bFeature .col-md-6 img{

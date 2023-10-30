@@ -12,7 +12,7 @@ const About = () =>{
                 <div className="card">
             <h3> <i class="fa fa-rocket"></i>   Mission</h3>
                 <p className="px-4">
-                At [Company Name], our vision is to pioneer a future where technology knows no bounds, and its potential is harnessed to drive human progress. We aspire to lead the IT software industry in shaping a world where innovation, connectivity, and efficiency converge seamlessly. Our vision is to create software solutions that empower businesses and individuals, simplifying complexities and enabling new possibilities. We're dedicated to forging a path toward a digital landscape where every challenge is met with a technological solution, making life smarter, more connected, and accessible.
+                At Softa, our vision is to pioneer a future where technology knows no bounds, and its potential is harnessed to drive human progress. We aspire to lead the IT software industry in shaping a world where innovation, connectivity, and efficiency converge seamlessly. Our vision is to create software solutions that empower businesses and individuals, simplifying complexities and enabling new possibilities. We're dedicated to forging a path toward a digital landscape where every challenge is met with a technological solution, making life smarter, more connected, and accessible.
                 </p>
                 </div>
                 </div>
@@ -20,7 +20,7 @@ const About = () =>{
                 <div className="card">
                 <h3>  <i class="fa fa-flag"></i>   Vision</h3>
                 <p className="px-4">
-                Our mission at [Company Name] is to be at the forefront of IT software innovation, dedicated to delivering transformative solutions that exceed expectations. We are committed to providing our clients with secure, scalable, and intuitive software products and services that elevate their potential. We achieve this through a relentless pursuit of excellence, continuous research, and development, and a commitment to being a responsive and adaptable partner. Our mission is also to cultivate a culture of collaboration, creativity, and integrity within our team, and contribute to the advancement of the IT.
+                Our mission at Softa is to be at the forefront of IT software innovation, dedicated to delivering transformative solutions that exceed expectations. We are committed to providing our clients with secure, scalable, and intuitive software products and services that elevate their potential. We achieve this through a relentless pursuit of excellence, continuous research, and development, and a commitment to being a responsive and adaptable partner. Our mission is also to cultivate a culture of collaboration, creativity, and integrity within our team, and contribute to the advancement of the IT.
                 </p>
                 </div>
                 </div>
@@ -32,7 +32,7 @@ const About = () =>{
                 Values
                 </h3>
                 <p className="px-4">
-                At [Company Name], our core values define who we are and guide our actions. We value innovation, seeing it as the driving force behind our success, and quality, ensuring that our software meets the highest standards of performance and security. We prioritize our clients and their success, conducting business with unwavering integrity and honesty. Collaboration is fundamental to our approach, both within our team and in our partnerships. We believe in continuous learning, recognizing that staying ahead requires a commitment to growth. Sustainability is a priority. 
+                At Softa, our core values define who we are and guide our actions. We value innovation, seeing it as the driving force behind our success, and quality, ensuring that our software meets the highest standards of performance and security. We prioritize our clients and their success, conducting business with unwavering integrity and honesty. Collaboration is fundamental to our approach, both within our team and in our partnerships. We believe in continuous learning, recognizing that staying ahead requires a commitment to growth. Sustainability is a priority. 
                 </p>
                 </div>
                 </div>

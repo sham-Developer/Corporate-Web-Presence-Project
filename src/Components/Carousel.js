@@ -2,7 +2,7 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 
-function Carousel_Func(){
+function Carousel2(){
     return(
         <Carousel className='carouselSec'>
             <div className='carInside' id='carInside1'>
@@ -21,4 +21,4 @@ function Carousel_Func(){
         </Carousel>
     )
 }
-export default Carousel_Func;
+export default Carousel2;

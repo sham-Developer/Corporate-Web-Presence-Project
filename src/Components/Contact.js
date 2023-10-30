@@ -8,8 +8,8 @@ const Contact = () =>{
        <h2 className="text-center my-5 fs-1">Get in touch with us</h2>
        <div className="row my-5 mx-5" id='contactDesc'>
         <div className="col-md-6 my-4">
-        <h2>Introducing Dotcod - <br></br>Your Reliable Designers.</h2><br></br>
-        <p className='fs-4'>Dotcod is a one-stop shop that may boost <br></br>consumer satisfaction with your goods and services <br></br> while revolutionizing the way your organization operates.<br></br> Software solutions that are immersive and adaptable<br></br> to a variety of sectors are expertly designed <br></br>by our team of development professionals.</p>
+        <h2>Introducing Softa - <br></br>Your Reliable Designers.</h2><br></br>
+        <p className='fs-4'>Softa is a one-stop shop that may boost <br></br>consumer satisfaction with your goods and services <br></br> while revolutionizing the way your organization operates.<br></br> Software solutions that are immersive and adaptable<br></br> to a variety of sectors are expertly designed <br></br>by our team of development professionals.</p>
         </div>
         <div className="col-md-6 my-4">
             <img src={img14} alt='myimage' id='cImg'></img>
