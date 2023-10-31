@@ -5,7 +5,7 @@ function Navbar(){
    
     return(
         <nav className="navbar">
-            <span className="logo">Logo</span>
+            <span className="logo">Softa-Solutions</span>
             <ul className="nav-links">
                 <Link to={"/"} className="home">
                     <li className="homeSide">Home</li>

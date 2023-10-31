@@ -60,7 +60,7 @@ We follow Agile methodologies, fostering collaboration and iterative development
             <div className="container my-5" id='bFeature'>
                 <h2 className="fs-1 text-center">Best Feature Services</h2>
                 <div className="row my-5 py-5">
-                    <div className="col-lg-6 col-md-12 col-sm-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12" >
                         <h3 className='py-4'>Web Development</h3>
                         <h5>Front End</h5>
                         <p>Our front end development team is dedicated to creating a stunning, user-centric interface. With a focus on the visual and interactive components of your web application, we ensure that your users are engaged, delighted, and empowered.</p>

@@ -70,11 +70,11 @@ const Home = () =>{
         <section className="Home4" id="home4">
             <div className="container">
             <div className="row py-2 px-3 fs-5" id="numb">
-                <span className="col-md-3 my-3">150+
+                <span className="col-md-3 my-3 text-center">150+
                 <br></br>Satisfied Clients</span>
-                <span className="col-md-3 my-3">90+<br></br>Projects finished</span>
-                <span className="col-md-3 my-3">5<br></br>Coutries Served</span>
-                <span className="col-md-3 my-3">48<br></br>Developers</span>
+                <span className="col-md-3 my-3 text-center">90+<br></br>Projects finished</span>
+                <span className="col-md-3 my-3 text-center">5<br></br>Coutries Served</span>
+                <span className="col-md-3 my-3 text-center">48<br></br>Developers</span>
 
             </div>
             </div>

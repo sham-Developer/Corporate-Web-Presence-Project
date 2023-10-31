@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
-import Services from './Components/Services';
+import Services, { fade } from './Components/Services';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 import Top from './Components/top';
@@ -14,6 +14,7 @@ const App = () =>{
   function toTop(){
     window.scrollTo(0,0);
   }
+
   return(
     <>
     <Top />
